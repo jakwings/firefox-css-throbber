@@ -1,0 +1,6 @@
+.tab-throbber {
+  list-style-image: url("chrome://mozapps/skin/places/defaultFavicon.svg") !important;
+}
+.tab-throbber[busy] {
+  filter: opacity(50%) !important;
+}

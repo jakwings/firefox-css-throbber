@@ -1,0 +1,19 @@
+.tab-loading-burst::before {
+  display: none !important;
+  animation: unset !important;
+}
+
+.tab-throbber::before {
+  background-image: url("chrome://mozapps/skin/places/defaultFavicon.svg") !important;
+  animation: unset !important;
+}
+.tab-throbber[busy]::before {
+  filter: opacity(50%) !important;
+}
+
+.tab-throbber-fallback {
+  list-style-image: url("chrome://mozapps/skin/places/defaultFavicon.svg") !important;
+}
+.tab-throbber-fallback[busy] {
+  filter: opacity(50%) !important;
+}
